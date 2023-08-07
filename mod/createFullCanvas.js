@@ -1,4 +1,11 @@
-window.onload = () => {
+/*
+20230807
+createFullCanvas()
+항상 전체화면인 캔버스 만들기
+캔버스 속성:  id='screen'
+*/
+
+const createFullCanvas = () => {
     const c = document.createElement('canvas')
     c.setAttribute( 'id', 'screen' )
     c.style.display = 'block'
@@ -11,4 +18,4 @@ window.onload = () => {
     document.body.append(c)
     // console.log('window init!')  
 }
-export default 
+export default createFullCanvas

@@ -1,3 +1,3 @@
-import onload from './whenOnload'
-import crCan from './createFullCanvas'
+import onload from './whenOnload.js'
+import crCan from './createFullCanvas.js'
 onload(crCan)
